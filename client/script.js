@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://open-ai-codex-s67g.vercel.app/', {
+    const response = await fetch('https://codex-iau7.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
